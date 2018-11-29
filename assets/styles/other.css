@@ -67,9 +67,63 @@ a:active {
     opacity: 0.8;
 }
 
+
+
 #bottom-navbar h1:hover {
     opacity: 1
   } 
+  #manager-header {
+     position: relative;
+     top: 110px;
+     width: 200px;
+     font-size: 0;
+  }
+  #clicker {
+      position: relative;
+      top: 175px;
+  }
+
+
+  .manager-prof {
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+  }
+
+  #overall{
+      background: url("assets/images/wood.png");
+      margin: 0;
+      padding: 0;
+  }
+
+  #playerList {
+      font-size: 0;
+      width: 417px;
+      margin: 0 auto;
+  }
+
+  #playerList .item {
+    width: 125px;
+    height: 125px;
+    margin: 4px;
+    border: 3px solid transparent;
+    display: inline-block;
+    border-radius: 10px;
+    opacity: 0.75;
+  }
+
+  #playerList .item:hover{
+      border-color: black;
+      opacity: 1;
+      cursor: pointer;
+  }
+
+
+   #playerList img {
+       border-radius: 6px;
+   }
+
+
 
 
 
