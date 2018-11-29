@@ -1,0 +1,144 @@
+#top-navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+#top-navbar h1:hover {
+    opacity: 1
+  } 
+
+#top-navbar {
+    display: flex;
+    flex-direction: row;
+    background: #dd0d0d;
+    color: white;
+}
+
+#top-navbar h1 {
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+#rounded-box-container {
+    margin: auto;
+    border-radius: 25px;
+    background: #e93737a2;
+    margin-top: 120px;
+    padding: 20px;
+    width: 60%;
+}
+
+#up-container {
+    display: flex;
+    justify-content: center;
+}
+
+#down-container {
+    display: flex;
+    justify-content: center;
+}
+
+#home-img {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curr-pic{
+    z-index: 10;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#home-img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#bottom-navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+}
+
+#bottom-navbar {
+    display: flex;
+    flex-direction: row;
+    background: rgb(13, 13, 14);
+    color: #9B9797;
+}
+.home-link
+{
+   color:white;
+   text-decoration: none; 
+   background-color: none;
+}
+
+
+#bottom-navbar h1 {
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+
+#bottom-navbar h1:hover {
+    opacity: 1
+  } 
+
+#up:hover {
+cursor: pointer;
+} 
+#down:hover {
+    cursor: pointer;
+} 
+
+#fun-fact {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+#fun-fact:hover {
+    cursor: pointer;
+}
+
+#show-fact {
+    position: absolute;
+    width:250px;
+    padding-top:5px;
+    padding-left:3px;
+    padding-bottom:10px;
+    opacity: 0;
+  }

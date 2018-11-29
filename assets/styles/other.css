@@ -1,0 +1,76 @@
+#top-navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+#top-navbar h1:hover {
+    opacity: 1
+  } 
+
+#top-navbar {
+    display: flex;
+    flex-direction: row;
+    background: #dd0d0d;
+    color: white;
+}
+
+#top-navbar h1 {
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#bottom-navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+}
+
+#bottom-navbar {
+    display: flex;
+    flex-direction: row;
+    background: rgb(13, 13, 14);
+    color: #9B9797;
+}
+
+#bottom-navbar h1 {
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+
+#bottom-navbar h1:hover {
+    opacity: 1
+  } 
+
+
+
+
