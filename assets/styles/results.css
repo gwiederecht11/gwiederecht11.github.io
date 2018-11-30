@@ -1,0 +1,112 @@
+ .total {
+    /* height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 15% 85%; */
+} 
+
+#top-navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+#top-navbar h1:hover {
+    opacity: 1
+  } 
+
+#top-navbar {
+    display: flex;
+    flex-direction: row;
+    background: #dd0d0d;
+    color: white;
+}
+
+#top-navbar h1 {
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#actual-results-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result p{
+    margin-top: 70px;
+}
+
+.result-border {
+    border-radius: 25px;
+    background-color: #e93737a2;
+    margin-top: 20px;
+    padding: 20px;
+    height: 50px;
+    width: 575px;
+}
+
+.text-els {
+    position: relative;
+    margin-top: 10px;
+    width : 100px;
+    height : 20px;
+}
+
+.opponent {
+    display: inline-block;
+}
+
+.home {
+    display: inline-block;
+}
+
+.left-child {
+    display: inline-block;
+}
+
+.left-child h1{
+    padding: 0;
+    text-align: center;
+    position: relative;
+    top: -25px;
+    margin-left: 10px;
+    margin-right: 45px;
+
+}
+
+.parent img{
+    margin-top: -10px;
+    display: inline-block;
+}
+
+.child:hover {
+    cursor: pointer;
+}
+
